@@ -1,0 +1,83 @@
+{
+  "system": "5e2024",
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Stormforged Thunder Cannon"
+    },
+    "description": {
+      "value": "Loud (audible 300 ft) and Stormcharged. When an action/bonus action/reaction attacks with a Stormcharged weapon, make only one attack; for each attack otherwise foregone, add 3d6 lightning or thunder damage."
+    },
+    "type": {
+      "value": "firearm"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "override_is_proficient": {
+      "value": true
+    },
+    "rarity": {
+      "value": "none"
+    },
+    "is_special": {
+      "value": true
+    },
+    "is_light": {
+      "value": false
+    },
+    "is_heavy": {
+      "value": false
+    },
+    "is_two_handed": {
+      "value": true
+    },
+    "is_finesse": {
+      "value": false
+    },
+    "is_reach": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "system": "5e2024",
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "system": "5e2024",
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d12"
+                    },
+                    "id": "inventor_thunder_cannon_0_roll"
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "piercing"
+            },
+            "id": "inventor_thunder_cannon_0"
+          }
+        }
+      ]
+    },
+    "id": "inventor_thunder_cannon",
+    "is_range": {
+      "value": true
+    },
+    "range": {
+      "value": "60/180"
+    }
+  }
+}

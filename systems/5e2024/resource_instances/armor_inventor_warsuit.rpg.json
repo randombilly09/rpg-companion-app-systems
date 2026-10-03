@@ -1,0 +1,69 @@
+{
+  "system": "5e2024",
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Warsmith Warsuit"
+    },
+    "description": {
+      "value": "Warsmith armor. While equipped and attuned, automates +2 Strength. Maximum Strength becomes 22 while wearing it."
+    },
+    "type": {
+      "value": "medium"
+    },
+    "rarity": {
+      "value": "none"
+    },
+    "base_ac": {
+      "value": 14
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "requires_attunement": {
+      "value": true
+    },
+    "effects": {
+      "value": [
+        {
+          "system": "5e2024",
+          "resource_id": "effect",
+          "stats": {
+            "type": {
+              "value": "add_to_stat"
+            },
+            "stat": {
+              "value": "$character.strength_score"
+            },
+            "aggregation_type": {
+              "value": "sum"
+            },
+            "constant": {
+              "value": 2
+            },
+            "id": "inventor_warsuit_str_effect"
+          }
+        }
+      ]
+    },
+    "id": "inventor_warsuit",
+    "has_max_bonus": {
+      "value": true
+    },
+    "max_bonus": {
+      "value": 2
+    },
+    "weight": {
+      "value": {
+        "system": "5e2024",
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 20
+          },
+          "id": "inventor_warsuit_weight"
+        }
+      }
+    }
+  }
+}

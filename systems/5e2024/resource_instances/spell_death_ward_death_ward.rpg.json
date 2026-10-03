@@ -32,7 +32,8 @@
     "classes": {
       "value": [
         "cleric",
-        "paladin"
+        "paladin",
+        "inventor"
       ]
     },
     "dice": {

@@ -43,7 +43,8 @@
         "fighter",
         "rogue",
         "wizard",
-        "ranger"
+        "ranger",
+        "inventor"
       ]
     },
     "dice": {

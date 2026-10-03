@@ -1,0 +1,77 @@
+{
+  "system": "5e2024",
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Power Fist"
+    },
+    "description": {
+      "value": "Warsmith Power Fist. Special: before an attack roll, you may forgo adding proficiency to the attack roll; if it hits, add double proficiency to damage. The app displays the normal proficient attack; apply the special trade manually when used."
+    },
+    "type": {
+      "value": "unarmed_strike"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "override_is_proficient": {
+      "value": true
+    },
+    "rarity": {
+      "value": "none"
+    },
+    "is_special": {
+      "value": true
+    },
+    "is_light": {
+      "value": true
+    },
+    "is_heavy": {
+      "value": false
+    },
+    "is_two_handed": {
+      "value": false
+    },
+    "is_finesse": {
+      "value": false
+    },
+    "is_reach": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "system": "5e2024",
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "system": "5e2024",
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d8"
+                    },
+                    "id": "inventor_power_fist_0_roll"
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "bludgeoning"
+            },
+            "id": "inventor_power_fist_0"
+          }
+        }
+      ]
+    },
+    "id": "inventor_power_fist"
+  }
+}

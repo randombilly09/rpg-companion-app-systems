@@ -45,7 +45,8 @@
         "rogue",
         "wizard",
         "bard",
-        "druid"
+        "druid",
+        "inventor"
       ]
     },
     "dice": {

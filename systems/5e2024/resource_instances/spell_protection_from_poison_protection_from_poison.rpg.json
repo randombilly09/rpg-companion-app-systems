@@ -34,7 +34,8 @@
         "cleric",
         "ranger",
         "paladin",
-        "druid"
+        "druid",
+        "inventor"
       ]
     },
     "dice": {

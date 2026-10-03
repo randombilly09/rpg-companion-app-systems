@@ -37,7 +37,8 @@
     },
     "classes": {
       "value": [
-        "cleric"
+        "cleric",
+        "inventor"
       ]
     },
     "dice": {

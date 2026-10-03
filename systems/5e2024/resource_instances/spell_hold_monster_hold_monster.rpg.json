@@ -46,7 +46,8 @@
         "bard",
         "sorcerer",
         "warlock",
-        "wizard"
+        "wizard",
+        "inventor"
       ]
     },
     "dice": {

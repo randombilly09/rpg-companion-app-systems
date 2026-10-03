@@ -1,0 +1,63 @@
+{
+  "system": "5e2024",
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Warsmith Warskin"
+    },
+    "description": {
+      "value": "Warsmith armor. While equipped and attuned, automates +2 Strength. Maximum Strength becomes 22 while wearing it."
+    },
+    "type": {
+      "value": "light"
+    },
+    "rarity": {
+      "value": "none"
+    },
+    "base_ac": {
+      "value": 12
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "requires_attunement": {
+      "value": true
+    },
+    "effects": {
+      "value": [
+        {
+          "system": "5e2024",
+          "resource_id": "effect",
+          "stats": {
+            "type": {
+              "value": "add_to_stat"
+            },
+            "stat": {
+              "value": "$character.strength_score"
+            },
+            "aggregation_type": {
+              "value": "sum"
+            },
+            "constant": {
+              "value": 2
+            },
+            "id": "inventor_warskin_str_effect"
+          }
+        }
+      ]
+    },
+    "id": "inventor_warskin",
+    "weight": {
+      "value": {
+        "system": "5e2024",
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 13
+          },
+          "id": "inventor_warskin_weight"
+        }
+      }
+    }
+  }
+}

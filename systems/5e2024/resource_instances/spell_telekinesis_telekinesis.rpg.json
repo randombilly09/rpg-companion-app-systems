@@ -35,7 +35,8 @@
     "classes": {
       "value": [
         "sorcerer",
-        "wizard"
+        "wizard",
+        "inventor"
       ]
     },
     "dice": {

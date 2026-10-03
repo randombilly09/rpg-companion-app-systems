@@ -42,7 +42,8 @@
         "rogue",
         "wizard",
         "ranger",
-        "sorcerer"
+        "sorcerer",
+        "inventor"
       ]
     },
     "dice": {

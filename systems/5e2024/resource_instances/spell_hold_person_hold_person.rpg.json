@@ -50,7 +50,8 @@
         "warlock",
         "fighter",
         "rogue",
-        "wizard"
+        "wizard",
+        "inventor"
       ]
     },
     "dice": {

@@ -1,0 +1,57 @@
+{
+  "system": "5e2024",
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Warsmith Integrated Armor"
+    },
+    "description": {
+      "value": "Integrated Warsmith armor. Treat it as permanently integrated even though the app still uses the Equip control. While equipped and attuned, automates +2 Strength. It also grants Powerful Build. Maximum Strength becomes 22."
+    },
+    "type": {
+      "value": "medium"
+    },
+    "rarity": {
+      "value": "none"
+    },
+    "base_ac": {
+      "value": 14
+    },
+    "modifier": {
+      "value": "dexterity"
+    },
+    "requires_attunement": {
+      "value": true
+    },
+    "effects": {
+      "value": [
+        {
+          "system": "5e2024",
+          "resource_id": "effect",
+          "stats": {
+            "type": {
+              "value": "add_to_stat"
+            },
+            "stat": {
+              "value": "$character.strength_score"
+            },
+            "aggregation_type": {
+              "value": "sum"
+            },
+            "constant": {
+              "value": 2
+            },
+            "id": "inventor_integrated_armor_str_effect"
+          }
+        }
+      ]
+    },
+    "id": "inventor_integrated_armor",
+    "has_max_bonus": {
+      "value": true
+    },
+    "max_bonus": {
+      "value": 2
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "system": "5e2024",
+  "resource_id": "weapon",
+  "stats": {
+    "name": {
+      "value": "Lightning Baton"
+    },
+    "description": {
+      "value": "Gadgetsmith Lightning Baton. On a natural 20, target makes a Constitution save vs your spell save DC or is stunned until the start of your next turn."
+    },
+    "type": {
+      "value": "unarmed_strike"
+    },
+    "attack_ability": {
+      "value": "strength"
+    },
+    "is_simple": {
+      "value": false
+    },
+    "override_is_proficient": {
+      "value": true
+    },
+    "rarity": {
+      "value": "none"
+    },
+    "is_special": {
+      "value": true
+    },
+    "is_light": {
+      "value": true
+    },
+    "is_heavy": {
+      "value": false
+    },
+    "is_two_handed": {
+      "value": false
+    },
+    "is_finesse": {
+      "value": true
+    },
+    "is_reach": {
+      "value": false
+    },
+    "damage_dice": {
+      "value": [
+        {
+          "system": "5e2024",
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "system": "5e2024",
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d4"
+                    },
+                    "id": "inventor_lightning_baton_0_roll"
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "bludgeoning"
+            },
+            "id": "inventor_lightning_baton_0"
+          }
+        },
+        {
+          "system": "5e2024",
+          "resource_id": "damage_dice",
+          "stats": {
+            "dices": {
+              "value": [
+                {
+                  "system": "5e2024",
+                  "resource_id": "dice_roll",
+                  "stats": {
+                    "dice_amount": {
+                      "value": 1
+                    },
+                    "dice_type": {
+                      "value": "d4"
+                    },
+                    "id": "inventor_lightning_baton_1_roll"
+                  }
+                }
+              ]
+            },
+            "damage_type": {
+              "value": "lightning"
+            },
+            "id": "inventor_lightning_baton_1"
+          }
+        }
+      ]
+    },
+    "id": "inventor_lightning_baton"
+  }
+}

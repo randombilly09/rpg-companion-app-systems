@@ -1,0 +1,66 @@
+{
+  "system": "5e2024",
+  "resource_id": "armor",
+  "stats": {
+    "name": {
+      "value": "Warsmith Warplate"
+    },
+    "description": {
+      "value": "Warsmith armor. While equipped and attuned, this resource automates the +2 Strength portion of Warsmith Armor. Powerful Build and Small-to-Medium size change are rules text only. Maximum Strength becomes 22 while wearing the armor."
+    },
+    "type": {
+      "value": "heavy"
+    },
+    "rarity": {
+      "value": "none"
+    },
+    "base_ac": {
+      "value": 18
+    },
+    "modifier": {
+      "value": "none"
+    },
+    "requires_attunement": {
+      "value": true
+    },
+    "effects": {
+      "value": [
+        {
+          "system": "5e2024",
+          "resource_id": "effect",
+          "stats": {
+            "type": {
+              "value": "add_to_stat"
+            },
+            "stat": {
+              "value": "$character.strength_score"
+            },
+            "aggregation_type": {
+              "value": "sum"
+            },
+            "constant": {
+              "value": 2
+            },
+            "id": "inventor_warplate_str_effect"
+          }
+        }
+      ]
+    },
+    "id": "inventor_warplate",
+    "impose_stealth_disadvantage": {
+      "value": true
+    },
+    "weight": {
+      "value": {
+        "system": "5e2024",
+        "resource_id": "weight",
+        "stats": {
+          "value": {
+            "value": 65
+          },
+          "id": "inventor_warplate_weight"
+        }
+      }
+    }
+  }
+}

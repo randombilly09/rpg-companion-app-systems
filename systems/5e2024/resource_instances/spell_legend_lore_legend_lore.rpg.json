@@ -42,7 +42,8 @@
       "value": [
         "cleric",
         "wizard",
-        "bard"
+        "bard",
+        "inventor"
       ]
     },
     "dice": {

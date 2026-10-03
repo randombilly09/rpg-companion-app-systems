@@ -44,7 +44,8 @@
         "fighter",
         "rogue",
         "wizard",
-        "bard"
+        "bard",
+        "inventor"
       ]
     },
     "dice": {
